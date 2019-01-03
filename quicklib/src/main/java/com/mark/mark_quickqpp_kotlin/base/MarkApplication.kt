@@ -12,7 +12,7 @@ import kotlin.properties.Delegates
  * @作者 Mark
  * @时间 2018/12/25
  */
-class MarkApplication : Application() {
+open class MarkApplication : Application() {
     private var refWatcher: RefWatcher? = null
 
     companion object {
